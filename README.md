@@ -35,7 +35,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/screenshot.jpg)
+![Desktop Site Screenshot](assets/images/desktop-screenshot.jpg)
+![Mobile Site Screenshot](assets/images/mobile-screenshot.jpg)
+![Tablet Site Screenshot](assets/images/tablet-screenshot.jpg)
 
 ### Links
 
