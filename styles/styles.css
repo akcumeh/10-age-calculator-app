@@ -1,30 +1,72 @@
+/* General Styles */
+
+@media screen and (max-width: 1199.99px) {
+    /* Hide the other device form */
+    .DESKTOP {
+        display: none;
+        visibility: hidden;
+        background-color: hsl(0, 100%, 67%);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* Hide the other device form */
+    .MOBILE {
+        display: none;
+        visibility: hidden;
+        background-color: hsl(0, 100%, 67%);
+    }
+}
+
+body {
+    background-color: hsl(0, 0%, 86%);
+    color: hsl(0, 0%, 8%);
+    font-family: 'Poppins', sans-serif;
+    width: 100vw !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    overflow-x: clip !important; /* Removes the annoying horizontal scroll */
+}
+
 /* Phones, Portrait Mode */
 
 @media screen
     and (min-width: 300px)
     and (orientation: portrait), (orientation: landscape) {
     
-    body {
-        background-color: red;
+    main {
+        width: 95vw !important;
+        height: 100vh;
+    }
+
+    form {
+        width: 90vw;
+        margin: auto;
+    }
+
+    footer {
+        border: 2px dashed hsl(259, 100%, 65%) !important;
+        color: hsl(0, 0%, 86%);
     }
 }
 
 /* Phones, Landscape Mode; Tablets */
 
-@media screen and (min-width: 768px) and (orientation: portrait), (orientation: landscape) {
+@media screen and (min-width: 768px) and (max-width: 1000px) and (orientation: portrait), (orientation: landscape) {
 
-        body {
-            background-color: yellow;
-        }
+    body {
+        background-color: yellow;
+    }
 
 }
 
-
 /* Laptops; other big screens */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (orientation: landscape) {
 
-        body {
-            background-color: blue;
-        }
+    body {
+        background-color: blue;
+    }
 }
