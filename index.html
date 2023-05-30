@@ -18,34 +18,56 @@
     <body>
         <main>
             <form class='calculator MOBILE' aria-label="Age Calculator">
-                <label for="day" class="input-label">DAY</label><br>
-                <input type="number" name="Day" id="day" placeholder="DD"><br>
-                <label for="month" class="input-label">MONTH</label><br>
-                <input type="number" name="Month" id="month" placeholder="MM"><br>
-                <label for="year" class="input-label">YEAR</label><br>
-                <input type="number" name="Year" id="year" placeholder="YYYY">
+                <div class="form-content">
+                    <div class="form-input-mob">
+                        <label for="day" class="input-label">DAY</label>
+                        <br>
+                        <input type="number" name="Day" id="day" placeholder="DD">
+                    </div>
+                    <div class="form-input-mob">
+                        <label for="month" class="input-label">MONTH</label>
+                        <br>
+                        <input type="number" name="Month" id="month" placeholder="MM">
+                    </div>
+                    <div class="form-input-mob">
+                        <label for="year" class="input-label">YEAR</label>
+                        <br>
+                        <input type="number" name="Year" id="year" placeholder="YYYY">
+                    </div>
+                </div>
 
                 <hr>
+
                 <button type="submit" class="go"><img src="assets/images/icon-arrow.svg" alt="Calculate!"></button>
 
                 <div class="result">
-                    <span class="years-result">--</span> years <br>
-                    <span class="months-result">--</span> months <br>
-                    <span class="days-result">--</span> days
+                    <span class="years-result">21</span> years <br>
+                    <span class="months-result">6</span> months <br>
+                    <span class="days-result">24</span> days
                 </div>
             </form>
 
             <form class='calculator DESKTOP' aria-label="Age Calculator">
-                <div class="form-input"><label for="day" class="input-label">DAY</label><br>
-                <input type="number" name="Day" id="day" placeholder="DD"></div>
-
-                <div class="form-input"><label for="month" class="input-label">MONTH</label><br>
-                <input type="number" name="Month" id="month" placeholder="MM"></div>
-
-                <div class="form-input"><label for="year" class="input-label">YEAR</label><br>
-                <input type="number" name="Year" id="year" placeholder="YYYY"></div>
+                <div class="form-content">
+                    <div class="form-input-big">
+                        <label for="day" class="input-label">DAY</label>
+                        <br>
+                        <input type="number" name="Day" id="day" placeholder="DD">
+                    </div>
+                    <div class="form-input-big">
+                        <label for="month" class="input-label">MONTH</label>
+                        <br>
+                        <input type="number" name="Month" id="month" placeholder="MM">
+                    </div>
+                    <div class="form-input-big">
+                        <label for="year" class="input-label">YEAR</label>
+                        <br>
+                        <input type="number" name="Year" id="year" placeholder="YYYY">
+                    </div>
+                </div>
 
                 <hr>
+                
                 <button type="submit" class="go"><img src="assets/images/icon-arrow.svg" alt="Calculate!"></button>
 
                 <div class="result">
